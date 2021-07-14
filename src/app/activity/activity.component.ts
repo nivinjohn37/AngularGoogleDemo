@@ -7,7 +7,7 @@ import { ActivityService } from '../activity.service';
   styleUrls: ['./activity.component.css']
 })
 export class ActivityComponent implements OnInit {
-
+  //testing a change for git
   constructor(public activityService: ActivityService) { }
 
   ngOnInit(): void {
