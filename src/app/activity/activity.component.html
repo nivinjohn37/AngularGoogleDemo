@@ -1,0 +1,7 @@
+<div *ngIf="activityService.activities.length">
+    <h2>Activities</h2>
+    <button class="clear" (click)="activityService.clearActivites()">Clear Activities</button>
+    <div *ngFor="let activity of activityService.activities">
+        {{activity}}
+    </div>
+</div>
